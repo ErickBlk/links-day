@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+    background-color: #E7CBCB;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color:#643843 ;
+    height: 110px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.308);
+}
+.logo-cabecalho{
+    padding-top: 20px;
+    height: 80px;
+}
+.conteudo{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+.fotoday{
+    height: 200px;
+    border-radius: 15px;
+}
+.titulo{
+    margin: 0;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.para{
+    margin-top: 0;
+    padding: 0 20px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-family:"Poppins", sans-serif; ;
+    font-weight: 300;
+}
+
+.botoes{
+    border-style: solid;
+    border-color: #64384359;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #643843;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 300px;
+}
+.rodape{
+    text-align: center;
+    color:#ffffff;
+    margin-top: 50px;
+    font-family:"Poppins", sans-serif; ;
+    font-weight: 300;
+    background-color: #99627A;
+    display: flex;
+    flex-direction: column;
+}
+.direitos{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.rodapedados{
+    font-family:"Poppins", sans-serif; ;
+    font-weight: 300;
+    font-size: 15px;
+}
+.desenvolvedor{
+    font-size: 12px;
+    font-weight: 500;
+}
+.abra{
+    text-decoration: none;
+    color: #643843;
+    font-size: 14px;
+    
+}
